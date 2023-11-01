@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Masa Corporal (IMC)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <p>Ingresa tu peso (en kg): <input type="text" id="peso"></p>
+        <p>Ingresa tu altura (en metros): <input type="text" id="altura"></p>
+        <button onclick="calcularIMC()">Calcular IMC</button>
+        <p>Tu IMC es: <span id="resultado"></span></p>
+    </div>
+    <header>
+        <h1>Índice de Masa Corporal (IMC)</h1>
+    </header>
+
+    <section>
+        <h2>¿Qué es el IMC?</h2>
+        <p>El Índice de Masa Corporal (IMC) es una medida que evalúa la relación entre el peso y la altura de una persona. Se utiliza comúnmente para determinar si una persona tiene un peso saludable en relación con su altura.</p>
+    </section>
+
+    <section>
+        <h2>Importancia del IMC</h2>
+        <p>El IMC es una herramienta útil para identificar posibles problemas de peso que pueden estar relacionados con la salud. Puede indicar si una persona tiene bajo peso, peso normal, sobrepeso u obesidad, lo que puede ayudar a prevenir problemas de salud asociados con el exceso de peso.</p>
+    </section>
+
+    <section>
+        <h2>Cómo se calcula el IMC</h2>
+        <p>El IMC se calcula dividiendo el peso en kilogramos entre el cuadrado de la altura en metros.</p>
+        <p>Fórmula: IMC = Peso (kg) / (Altura (m) * Altura (m))</p>
+    </section>
+
+    <section>
+        <h2>Valores para adultos</h2>
+        <p>Los valores típicos del IMC para adultos son:</p>
+        <ul>
+            <li>Bajo de peso: IMC &lt; 18.5</li>
+            <li>Normal: 18.5 ≤ IMC &lt; 24.9</li>
+            <li>Sobrepeso: 25 ≤ IMC &lt; 29.9</li>
+            <li>Obeso: IMC ≥ 30</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Valores para niños y adolescentes</h2>
+        <p>El IMC para niños y adolescentes se evalúa en percentiles y se compara con gráficos de crecimiento. Se calcula de manera diferente según la edad y el sexo. Consulta a un profesional de la salud para interpretar los resultados en estos grupos de edad.</p>
+    </section>
+
+    <footer>
+        <p>Hecho por Esteban Ormandy Luna Osorio - Sección: 11-06</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
